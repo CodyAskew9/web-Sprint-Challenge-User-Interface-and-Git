@@ -42,7 +42,7 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 2% 20% 2% 11%;
+    margin: 2% 20% 2% 10%;
     font-size: .8rem;
     font-weight: bold;
 
@@ -50,11 +50,15 @@ header{
 header a{
     width: 50%;
     padding-top:2%;
+    font-size: 1.5rem;
+    padding: 3%;
     text-decoration: none;
     color: black;
 }
 .lambda{
-    margin-left: 11%;
+    background-image: url(C:\Users\caske\OneDrive\Desktop\lambdastuff\web-Sprint-Challenge-User-Interface-and-Git\img\lambda-black.png);
+    width: 100%;
+
 }
 .jumbo,.jumboabout{
  display: flex;
@@ -110,6 +114,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font-weight: bold;
 }
 
 .top-content .text-container {
@@ -253,6 +258,8 @@ p {
     display: flex;
     margin: 10px 2% 20px;
     justify-content: space-around;
+    font-weight: bold;
+    margin: 0 10%;
 }
 
 .bottom-content .text-container {
@@ -266,7 +273,7 @@ p {
 footer {
     width: 100%;
     background: black;
-    margin: 2%;
+    margin: 2% 10% 0 10%;
 }
 
 footer nav {
